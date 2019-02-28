@@ -12,7 +12,10 @@ and open the template in the editor.
     <body>
         <?php
          echo "test";
-         echo "test2";
+         if (true){
+             echo "test2";
+         }
+         
         ?>
     </body>
 </html>
